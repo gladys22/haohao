@@ -1,0 +1,142 @@
+#footer {
+    width: 100%;
+    height: 419px;
+}
+#about_bg_size {
+    width: 100%;
+    height: 222px;
+    background: #4d4d4d;
+}
+#about {
+    width: 1000px;
+    height: 222px;
+    background: #4d4d4d;
+    margin: 0 auto;
+}
+.about_as {
+    list-style: none;
+    color: #fff;
+    margin-left: 57px;
+}
+.about_as #a1 {
+    margin-left:0;
+}
+.about_as #a2 {
+    margin-right:0;
+}
+.about_list-item {
+    list-style: none;
+    text-align: center;
+}
+.about_list-item li {
+    font-size: 12px;
+    line-height: 24px;
+}
+.about_list-item a {
+    text-decoration: none;
+    color: #fff;
+}
+.about_list-item a:hover {
+    text-decoration: underline;
+}
+.about_list {
+    float: left;
+    margin: 12px 42px;
+}
+.about_list-item .as_list {
+    font-size: 14px;
+    line-height: 65px;
+}
+.about_list img {
+    width: 105px;
+    margin-top: 27px;
+}
+.img_font {
+    font-size: 14px;
+    margin:3px 0 0 11px;
+}
+.about_hotline {
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.about_hotline_phone {
+    line-height: 30px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+#team {
+    width: 100%;
+    height: 101px;
+    background: #5d6163;
+}
+#team_bg_size {
+    width: 1000px;
+    height: 101px;
+    background: #5d6163;
+    color: #fff;
+    margin: 0 auto;
+}
+.team_item {
+     list-style: none;
+ }
+.team_item a {
+    color: #fff;
+    text-decoration: none;
+}
+.team_item a:hover {
+    text-decoration: underline;
+}
+#team::before {
+    content: "";
+    display: table;
+}
+
+.team_bg::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+#b1 li {
+    float:left;
+}
+#b2 li {
+    float:left;
+}
+#b1 li {
+    margin:18px 10px;
+    font-size: 14px;
+}
+#b2 li {
+    margin:0 10px;
+    font-size: 14px;
+}
+#b1 .big_font {
+    font-size: 16px;
+}
+#b2 .big_font {
+    font-size: 16px;
+}
+#info {
+    width: 100%;
+    height: 99px;
+    background: #ffffff;
+}
+.info_bg {
+    width: 1000px;
+    height: 99px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.info_bg::before {
+    content: "";
+    display: table;
+}
+.info_bg p {
+    font-size: 12px;
+    color: #666666;
+    line-height: 26px;
+}
+.info_p {
+    margin-top: 11px;
+}

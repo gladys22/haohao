@@ -1,0 +1,215 @@
+#reg_bg {
+    width: 100%;
+    height: 724px;
+    background: #f2f2f2;
+}
+#reg_bg::before {
+    content:"";
+    display: table;
+}
+/*注册进度*/
+.reg_bg_white {
+    width: 1000px;
+    height: 625px;
+    background: #ffffff;
+    margin: auto;
+    margin-top: 40px;
+}
+.reg_info {
+    width: 818px;
+    height: 149px;
+    margin: auto;
+    position: relative;
+}
+.reg_circle {
+    width: 55px;
+    height: 55px;
+    background: #59bb9c;
+    border-radius: 50%;
+    border: 5px solid #e6e6e6;
+    margin-left: 20px;
+}
+.reg_info p {
+    font-size: 18px;
+    color: #59bb9c;
+    margin-top: 5px;
+}
+.reg_progress {
+    width: 326px;
+    height: 18px;
+    background: #e6e6e6;
+}
+.reg_progress2 {
+    width: 168px;
+    height: 18px;
+    background: #59bb9c;
+    border-radius: 10px;
+}
+.reg_circle2 {
+    width: 64px;
+    height: 64px;
+    background: #e6e6e6;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.reg_info .reg_font {
+    font-size: 18px;
+    color: #bab1b1;
+}
+.reg_progress3 {
+    width: 323px;
+    height: 18px;
+    background: #e6e6e6;
+}
+.reg_info_one {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 1;
+}
+.long_one {
+    position: absolute;
+    top: 82px;
+    left: 73px;
+}
+.phone_info {
+    position: absolute;
+    left: 362px;
+    bottom: 0;
+}
+.long_tow {
+    position: absolute;
+    top: 82px;
+    left: 439px;
+}
+.info_password {
+    position: absolute;
+    left: 710px;
+    bottom: 0;
+}
+/*注册进度end*/
+/*表格信息*/
+.info_bg {
+    width: 830px;
+    height: 224px;
+    margin: 70px auto 0;
+}
+.info_input {
+    width: 824px;
+    height: 338px;
+}
+.input_ul {
+    list-style: none;
+    position: relative;
+}
+.info_input li {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.key {
+    margin-right: 8px;
+    color: #f8a107;
+    margin-top: 15px;
+}
+.title {
+    margin-right: 25px;
+    line-height: 47px;
+}
+
+.phone_box {
+    width: 313px;
+    height: 47px;
+    border: 1px solid #ccc;
+    margin-left: 101px;
+    border-radius: 34px;
+    overflow: hidden;
+}
+.phone_box .phone_picture {
+    width: 47px;
+    height: 47px;
+    background: #f2f2f2;
+}
+.input_box {
+    width: 248px;
+    height: 44px;
+    border: none;
+    padding-left: 6px;
+    color: #929292;
+}
+.test_box2 {
+    width: 128px;
+    height: 37px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    border-radius: 34px;
+    overflow: hidden;
+}
+.input_box2 {
+    width: 95px;
+    height: 38px;
+    border: none;
+    padding-left: 17px;
+    color: #929292;
+}
+.test_bg {
+    width: 425px;
+    height: 39px;
+}
+.text_code {
+    width: 93px;
+    height: 36px;
+    margin-left: 12px;
+}
+.text_refurbish {
+    margin-left: 11px;
+}
+.test_option {
+    line-height: 47px;
+}
+.option_picture {
+    width: 20px;
+    height: 20px;
+    background: url(../image/reg.image/1.png);
+    margin: 13px 6px 0 17px;
+}
+.option_picture2 {
+    width: 20px;
+    height: 20px;
+    background: url(../image/reg.image/2.png);
+    margin: 13px 6px 0 15px;
+}
+.agree {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #989898;
+    border-radius: 50%;
+    margin:3px 6px 0 105px;
+}
+.agree_font {
+    font-size: 14px;
+}
+.agree_font a {
+    color: #59bb9c;
+    text-decoration: none;
+}
+.test_bottom {
+    margin-bottom: 55px !important;
+}
+button {
+    width: 309px;
+    height: 54px;
+    margin-top: -7px;
+    background: #59bb9c;
+    border: none;
+    border-radius: 35px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 105px;
+}
+.info_image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*表格信息end*/
