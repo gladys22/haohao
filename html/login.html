@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/common.css"/>
+    <link rel="stylesheet" href="../CSS/login.css"/>
+    <title></title>
+</head>
+<body>
+<!--<header>
+    <iframe class="haohao_header" src="header.html" frameborder="0"></iframe>
+</header>-->
+<header></header>
+<input id="basePath" type="hidden" value="http://127.0.0.1:5500/haohao_app/public/index.html">
+<input id="referer" type="hidden" value="null">
+    <!-- logo end-->
+    <!-- 注册-->
+    <div id="login">
+        <div class="login_bg">
+            <div class="login_picture">
+                <img src="../image/login_image/login_pic.jpg" alt=""/>
+            </div>
+            <div class="login_table">
+               <table class="log_table">
+                   <tr>
+                       <td colspan="2">
+                           <div class="first_input">
+                              <p class="td_picture"></p>
+                              <input id="emailphone" class="login_input " type="text" placeholder="请输入手机号" />
+                           </div>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td colspan="2">
+                           <div class="first_input">
+                               <p class="td_picture3"></p>
+                               <input id="password" class="login_input " type="password" placeholder="请输入密码" />
+                           </div>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <div class="first_input2">
+                               <p class="td_picture2"></p>
+                               <input id="code" class="login_input2" type="text" placeholder="请输入验证码"/>
+                           </div>
+                       </td>
+                       <td class="login_tr">
+                           <!--<img class="td_test" src="../image/login_image/untitled.png" />-->
+                           <div id="yzm"></div>
+                       </td>
+                   </tr>
+                   <tr >
+                       <td colspan="2" class="login_password_box">
+                           <a class="password_box" href="#">忘记密码</a>
+                           <a class="reg_box" href="javascript:;" >免费注册</a>
+                       </td>
+                   </tr>
+               </table>
+             </div>
+            <div id="errorTip"></div>
+            <button class="btn_login">立即登录</button>
+            <div class="login_remarks">
+                <img  class="icon_picture" src="../image/login_image/icon.png" />
+                <p class="remarks">你的信息已通过沃通"SSL加密通道"（SSL协议）,实现</p>
+                <p class="remarks">高强度双向加密传输，数据传输安全</p>
+            </div>
+        </div>
+    </div>
+    <!-- 注册end-->
+<footer>
+    <iframe class="haohao_footer" src="footer.html" frameborder="0"></iframe>
+</footer>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/login.js"></script>
+<script src="../js/header.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/yzm.js"></script>
+</body>
+</html>
